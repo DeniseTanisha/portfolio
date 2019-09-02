@@ -1,0 +1,118 @@
+* {
+  font-family: "Arimo", sans-serif;
+}
+
+#Pagetop {
+  border-right: 4vw white solid;
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: rgb(102, 187, 198);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#Logo {
+  padding: 3em 1em 0em 0em;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  position: absolute;
+  border-bottom: 4px solid rgb(214, 150, 31);
+}
+.Myname {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+#ElePic {
+  height: 4rem;
+}
+
+#Introduction {
+  margin-top: 30vh;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: rgb(165, 113, 16);
+  font-size: 1.8em;
+}
+
+#Info {
+  text-align: center;
+}
+#Mypic {
+  height: 25vh;
+  border: 4px solid rgb(214, 150, 31);
+  border-radius: 10px;
+  box-shadow: 2rem;
+}
+
+.scroll {
+  color: white;
+  font-size: 1.7em;
+}
+
+#Projectheading {
+  color: white;
+  font-size: 2em;
+}
+#projects {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(251, 130, 126);
+  border-right: 4vw white solid;
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projectsnip {
+  z-index: 4;
+  height: 20vh;
+
+  width: auto;
+  border-radius: 5px;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+}
+.projectbox {
+  background-color: bisque;
+  z-index: 2;
+  width: 80vw;
+  height: 12em;
+  margin-top: 4vh;
+  border-radius: 5px;
+  margin-left: 2vw;
+  display: flex;
+}
+.description {
+  list-style: none;
+  color: black;
+  a {
+    position: relative;
+  }
+}
+
+.projectboxtugofwar {
+  background-color: bisque;
+  z-index: 4;
+  width: 35em;
+  height: 12em;
+  margin-top: 4vh;
+  border-radius: 5px;
+  margin-left: 2vw;
+  display: flex;
+}
+
+@media only screen and (min-width: 500px) {
+}
