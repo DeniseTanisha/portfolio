@@ -73,11 +73,13 @@
   box-sizing: border-box;
   margin: 0px;
   display: grid;
+  text-align: center;
 }
 
 .projectsnip {
   height: 30vh;
   border-radius: 5px;
+  width: 65vw;
 }
 
 .portfolio {
@@ -86,6 +88,7 @@
 }
 
 .projectbox {
+  padding: 2vh 0;
   margin: 3vh 0;
   background-color: bisque;
   width: 80vw;
