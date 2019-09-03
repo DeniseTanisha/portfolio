@@ -65,22 +65,18 @@
   margin-top: 3vh;
   color: white;
   font-size: 2em;
+  justify-self: center;
 }
 
 #projects {
-  height: 100vh;
   background-color: rgba(251, 130, 126, 0.876);
   box-sizing: border-box;
   margin: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
 }
 
 .projectsnip {
-  z-index: 4;
-  height: 6vh;
-  width: auto;
+  height: 30vh;
   border-radius: 5px;
 }
 
@@ -90,33 +86,66 @@
 }
 
 .projectbox {
+  margin: 3vh 0;
   background-color: bisque;
-  z-index: 2;
   width: 80vw;
-  height: 12em;
-  margin-top: 4vh;
   border-radius: 5px;
-  margin-left: 2vw;
   display: flex;
+  flex-direction: column;
+  justify-self: center;
 }
 
 .description {
   list-style: none;
   color: black;
+  font-size: 1.3em;
+  text-align: center;
 }
 .description a {
   position: relative;
+  color: #a06b09;
 }
 
-.projectboxtugofwar {
-  background-color: bisque;
-  z-index: 4;
-  width: 35em;
-  height: 12em;
-  margin-top: 4vh;
-  border-radius: 5px;
-  margin-left: 2vw;
-  display: flex;
+#pagebottom {
+  background-color: #86a7d0;
+  display: grid;
+  padding-bottom: 5vh;
+}
+
+#Contactme {
+  margin-top: 3vh;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.contactdetails {
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  margin-top: 2vh;
+}
+.contactdetails a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .projectsnip {
+    height: 30vh;
+    border-radius: 5px;
+    width: 30vw;
+  }
+
+  .projectbox {
+    margin: 3vh 0;
+    background-color: bisque;
+    width: 60vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
