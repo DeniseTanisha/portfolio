@@ -1,0 +1,146 @@
+* {
+  font-family: "Arimo", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#Pagetop {
+  // border-right: 4vw white solid;
+
+  background-color: rgb(102, 187, 198);
+  height: 100vh;
+  // width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#Logo {
+  padding: 3em 1em 0em 0em;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  position: absolute;
+  border-bottom: 4px solid rgb(214, 150, 31);
+}
+.Myname {
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+#ElePic {
+  height: 4rem;
+}
+
+#Introduction {
+  margin-top: 30vh;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: rgb(165, 113, 16);
+  font-size: 1.8em;
+  margin-bottom: 2vh;
+}
+
+#Info {
+  text-align: center;
+}
+#Mypic {
+  height: 25vh;
+  border: 4px solid rgb(214, 150, 31);
+  border-radius: 10px;
+  box-shadow: 2rem;
+  margin-bottom: 2vh;
+}
+
+.scroll {
+  color: white;
+  font-size: 1.7em;
+}
+
+#Projectheading {
+  margin-top: 3vh;
+  color: white;
+  font-size: 2em;
+  justify-self: center;
+}
+#projects {
+  background-color: rgba(251, 130, 126, 0.876);
+  box-sizing: border-box;
+  margin: 0px;
+  display: grid;
+}
+
+.projectsnip {
+  height: 30vh;
+  border-radius: 5px;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+}
+.projectbox {
+  margin: 3vh 0;
+  background-color: bisque;
+  width: 80vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+.description {
+  list-style: none;
+  color: black;
+  font-size: 1.3em;
+  text-align: center;
+  a {
+    position: relative;
+    color: rgb(160, 107, 9);
+  }
+}
+
+#pagebottom {
+  background-color: rgb(134, 167, 208);
+  display: grid;
+  padding-bottom: 5vh;
+}
+
+#Contactme {
+  margin-top: 3vh;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.contactdetails {
+  font-size: 1.6em;
+  color: white;
+  text-align: center;
+  margin-top: 2vh;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .projectsnip {
+    height: 30vh;
+    border-radius: 5px;
+    width: 30vw;
+  }
+
+  .projectbox {
+    margin: 3vh 0;
+    background-color: bisque;
+    width: 60vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
+}

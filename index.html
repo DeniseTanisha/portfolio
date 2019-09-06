@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Denise Stubbs</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8869e4b4bb.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Arimo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="Pagetop">
+      <header id="Logo">
+        <span>
+          <img src="./assets/elephant.png" id="ElePic" alt="elephant" />
+        </span>
+        <span>
+          <h1 class="Myname">Denise Stubbs</h1>
+        </span>
+      </header>
+
+      <div id="Info">
+        <p id="Introduction">
+          Front-End Web Developer with a degree in Business Management and
+          Marketing.
+        </p>
+
+        <img src="assets/portrait.jpg" alt="" id="Mypic" />
+
+        <p class="scroll">
+          Portfolio <br />
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+        <h1 id="Projectheading">My Projects </h1>
+            <article class="projectbox">
+              <a href="https://app.hedira.io/welcome" target="_blank">
+                <img class="projectsnip" src="assets/hedira.png" alt="" /> 
+              </a>
+                    <p class="description">
+                      <ul class="description">
+                          <span>Group Project, a live client project. </span>
+                        <li><i class="fab fa-react"></i> React App </li>
+                        <li> <i class="fab fa-sass"></i> SCSS</li>
+                        <li> <i class="fab fa-html5"></i> HTML5</li>
+                        <li> <i class="fas fa-code"></i>
+                          <a href="https://app.hedira.io/welcome" target="_blank">Go to the App</a>
+                        </li>
+                      </ul>
+                    </p>
+                  </article>
+      
+                  <article class="projectbox">
+                    <a
+                           href="https://tug-of-war.denisestubbs.website/"
+                       
+              target="_blank"
+                            rel="noopener noreferrer"
+                          ><img class="projectsnip" src="assets/tugofwar.png" alt="" />  
+                        </a>
+                    <p class="description">
+                      <ul class="description">
+                        <li>Personal Project, built in a single html page</li>
+                        <li> <i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-js-square"></i> JavaScript</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS </li>
+                        <li> <i class="fas fa-code"></i>
+                          <a
+                            href="https://tug-of-war.denisestubbs.website/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Go to the Game
+                          </a>
+                        </li>
+                        <li> <i class="fab fa-github"></i>
+                          <a
+                            href="https://github.com/DeniseTanisha/tug-of-war"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                           View the code
+                          </a>
+                        </li>
+                      </ul>
+                    </p>
+                  </article>
+    </section>
+    <section id="pagebottom">
+            <h1 id="Contactme"> Contact Me </h1>
+        <div class="contactdetails" id="email">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:denise_stubbs@hotmail.co.uk?subject=Website contact&body=I have seen your portfolio and I would like to chat." target="_blank" > denise_stubbs@hotmail.co.uk </a>
+        </div>
+
+        <div class="contactdetails">
+                <i class="fas fa-mobile-alt"></i>
+                076 76464 614
+        </div>
+
+        <div class="contactdetails">
+            <i class="fab fa-linkedin-in"></i>
+                <a href="https://www.linkedin.com/in/denisetanishastubbs/" target="_blank">
+                 My Linkedin
+                </a>
+        </div>
+                    
+        <div class="contactdetails">
+                <i class="fab fa-github"></i>
+                <a
+                        href="https://github.com/DeniseTanisha"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        My Github
+                      </a>
+                    </div>
+
+                    <div class="contactdetails">
+                      <i class="fas fa-download"></i>
+                      <a
+                              href="./assets/DeniseStubbsCV.pdf"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              My CV
+                            </a>
+                          </div>
+    
+
+
+
+    </section>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAJPa_vGJaU5e_S2ZuYkDI4NqmHcZXDD5U",
+        authDomain: "portfolio-56252.firebaseapp.com",
+        databaseURL: "https://portfolio-56252.firebaseio.com",
+        projectId: "portfolio-56252",
+        storageBucket: "",
+        messagingSenderId: "45037378247",
+        appId: "1:45037378247:web:b800829aa5871116"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
